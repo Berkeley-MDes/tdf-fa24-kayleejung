@@ -1,12 +1,27 @@
 # Hello DES INV 202 Student!
 
 # Outline
-[week 1](README.md#week-1-report-1)
+[week 1](README.md#week-1-report-1) <br>
+[week 2](README.md#week-2-report-2)
 
 ---
 
-# Week 1: Report 1 #
-## Week of 09/05/2024
+# Week 2: Report 2 - 09/09/2024 #
+<h3> Rhino & Grasshopper Example Workflow Diagram</h3>
+To understand the final product, I tried to dissect the grasshopper file and make sense of the parameters, and how they impact the final design. In doing so, I brainstormed design considerations and overarching specificiations pertaining to the phone stand requirements. While my final model will likely not resemble the examples shared in class, the importance of the design considerations/specifications will translate to various forms. 
+<img width ="width" alt="Rhino & Grasshopper Example Workflow Diagram" src="assets/rhinograsshopper_exampleworkflow.png"> <br>  
+
+<h3>Learning Grasshopper Terms</h3>
+<strong>Brep</strong>: <strong>B</strong>oundary <strong>Rep</strong>resentation = polysurface (in rhino); geometry type that represents the surface of an object with a set of connected surfaces <br>
+<br>
+<strong>Baking</strong>: pushes new geometry to Rhino based on the current state of the Grasshopper parameters. Note: once the object is baked, it unresponsive to any further tweaks in Grasshopper.
+
+<h3>Experimenting with Grasshopper</h3>
+
+---
+
+# Week 1: Report 1 – 09/05/2024 #
+
 
 My focus of the week was to get reacquainted with CAD tools, and familiarize myself with Rhino which I have not used before. I followed a couple youtube tutorials outlining the Rhino interface, and practiced using the tools to model a watering can (not pictured because the app crashed before I saved - a good learning opportunity for future use). In my undergrad degree in engineering, I've used tools like Solidworks and Fusion360 for various academic and personal projects. My prior experience in CAD definitely helped in getting started with Rhino, since I am familiar with terms like 'extrude, sweep, revolve' etc, as well as visualizing how to model shapes from 2D sketches to 3D. However, there are noticeable differences in functionality/capability when comparing Rhino to more engineering-focused softwares. 
 
