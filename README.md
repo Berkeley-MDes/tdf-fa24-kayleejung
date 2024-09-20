@@ -20,6 +20,10 @@ From the sketches, I moved on to Grasshopper, and making my dynamic model. The v
 
 <img height = 400 alt="Lamp" src="assets/03lampexperiment1.png">  <img height  =400 alt="Lamp" src="assets/03lampexperiment2.png">
 
+<h3>My Final Lamp!</h3>
+<img height = 400 alt="Lamp" src="assets/03lamplight.jpeg">
+
+
 <h3>Speculations</h3>
 The most fascinating part about designing this lamp was creating with parameters in mind, and creating relationships between the parameters and their respective geometries. To model my lamp system, I created a model for the lamp stand, lightbulb and lamp shade. While I only intended to print the lamp shade, having the whole system was very useful for visualizing parameters and relative size. I really like the aspect of being able to change parameters, and have the rest of the design be dependent on those changes. 
 
