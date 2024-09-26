@@ -3,7 +3,20 @@
 # Outline
 [week 1](README.md#week-1-report-1) <br>
 [week 2](README.md#week-2-report-2) <br>
-[week 3](README.md#week-3-report-3)
+[week 3](README.md#week-3-report-3) <br>
+[week 4](README.md#week-4-report-4)
+
+---
+# Week 4: Report 4 - 09/23/2024 #
+This week was a transitional week between projects, so my main focus was getting setup and reacquainting myself with some tools I've worked with before. I've previously used microcontrollers on past projects, but I'm excited to start learning again! 
+
+<h3>Reflections</h3>
+The assignment this week was to create a Map of my Interactive Ecosystems. This was an interesting exercise as it forced me to think about all the data I create and consume throughout a single day. It also made me more mindful of my internet usage and digital footprint, and how I can consume less information and reduce my digital time, and go back to "analog" activities.
+<img width =400 alt="Map of Interactive Ecosystem" src="assets/04interactiveecosystemmap.jpg">
+
+<h3>Speculations</h3>
+In Studio Foundations, our end-of-module presentation is an ambient display. I decided to use a light module on the inside, and Chris gave me a esp32 feather and featherwing LED. I'm interested to see the capabilities of the light and how I can manipulate the form to change the light dispersion.
+
 
 
 ---
