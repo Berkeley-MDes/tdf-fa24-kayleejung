@@ -15,6 +15,7 @@ Two resistor values:
 10k ohms (brown black orange) - easier to change colours, sensitive
 100k ohms (brown black black orange yellow) - only showed magenta/blue, very sensitive
 100 ohms (brown brown black black brown) - only magenta to blue to green
+1k ohms (brown black red gold) - only magenta to green
 
 
 ---
