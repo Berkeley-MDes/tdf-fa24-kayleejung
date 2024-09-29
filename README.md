@@ -4,10 +4,21 @@
 [week 1](README.md#week-1-report-1) <br>
 [week 2](README.md#week-2-report-2) <br>
 [week 3](README.md#week-3-report-3) <br>
-[week 4](README.md#week-4-report-4)
+[week 4](README.md#week-4-report-4) <br>
+[week 5](README.md#week-5-report-5) <br>
 
 ---
-# Week 4: Report 4 - 09/23/2024 #
+# Week 5: Report 5 - 09/30/2024 #
+<h4>Example 1: Button to LED Pulse Rate</h4>
+<h4>Example 2: FSR to RGB LED</h4>
+Two resistor values: 
+10k ohms (brown black orange) - easier to change colours, sensitive
+100k ohms (brown black black orange yellow) - only showed magenta/blue, very sensitive
+100 ohms (brown brown black black brown) - only magenta to blue to green
+
+
+---
+# Week 4: Report 4 - 09/26/2024 #
 This week was a transitional week between projects, so my main focus was getting setup and reacquainting myself with some tools I've worked with before. I've previously used microcontrollers on past projects, but I'm excited to start learning again! 
 
 <h3>Reflections</h3>
