@@ -8,19 +8,29 @@
 [week 5](README.md#week-5-report-5) <br>
 
 ---
-# Week 5: Report 5 - 09/30/2024 #
+# Week 5: Report 5 - 10/03/2024 #
+<h3>Reflections</h3>
+This week was dedicated to creating projects in particle, building circuits and flashing code. In the beginning of the week, I focused on the example folder given to the class, and worked on compiling and flashing. This was a good intro to some of the particle terminology and functions, and helped me get used to troubleshooting when the compile/flash wasn't working as anticipated. I then worked on the example particle.io tutorials, which each required a bit of troubleshooting to complete. 
 <h4>Example 1: Button to LED Pulse Rate</h4>
+After I built the initial circuit, I wanted to add a second LED, and code it to do something else when the button is pressed. I originally set up a global count variable and function in button_pressed that would increment the count. I then set up an if statement to turn on the LED2 if the count was even. However, I encountered issues with having both lights on. I did some troubleshooting, but decided to come back to this problem when I have a better understanding of little intricacies in the code and function order. This is the alteration I ended up doing: 
+<img width =400 alt="blink" src="assets/05blink.png">
+<img width =400 alt="blink" src="assets/05blinkcircuit.png">
+
 <h4>Example 2: FSR to RGB LED</h4>
 Two resistor values: 
 10k ohms (brown black orange) - easier to change colours, sensitive
 100k ohms (brown black black orange yellow) - only showed magenta/blue, very sensitive
 100 ohms (brown brown black black brown) - only magenta to blue to green
 1k ohms (brown black red gold) - only magenta to green
+<h4>Example 3: Button Send on change</h4>
+<h4>Example 4: Publish/Subscribe</h4>
+
+<h3>Speculations</h3>
 
 
 ---
 # Week 4: Report 4 - 09/26/2024 #
-This week was a transitional week between projects, so my main focus was getting setup and reacquainting myself with some tools I've worked with before. I've previously used microcontrollers on past projects, but I'm excited to start learning again! 
+This week was a transitional week between projects, so my main focus was getting set up and reacquainting myself with some tools I've worked with before. I've previously used microcontrollers on past projects, but I'm excited to start learning again! 
 
 <h3>Reflections</h3>
 The assignment this week was to create a Map of my Interactive Ecosystems. This was an interesting exercise as it forced me to think about all the data I create and consume throughout a single day. It also made me more mindful of my internet usage and digital footprint, and how I can consume less information and reduce my digital time, and go back to "analog" activities. <br>
