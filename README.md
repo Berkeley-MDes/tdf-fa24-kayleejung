@@ -37,7 +37,10 @@ I had a bit of trouble doing this example, as I wasn't familiar with publishing 
 <img width =400 alt="blink" src="assets/05publishsubscribecircuit.jpeg">
 
 <h3>Speculations</h3>
-
+This was a good intro to the tools and functions of particle, and I am particularly interested in the publish/subscribe functions and how this could be applied to working in teams! I am going to continue to troubleshoot this, and hopefully have two photons communicating with each other. For my final project in Studio Foundations, I used a feather M0 and a adafruit 4x8 neopixel to make an ambient lighting display, which I coded in arduino. I also bought some 8x8 dot matrix grids, and I am hoping to implement these with my particle board in the next week, maybe using a motion sensor as well. This reminded me of those speeding sensors the city places on the side of roads, which flash you a happy face or a sad face depending on the speed. I have some extra electronic components from my undergrad, and I am going to continue to experiment with using them with my photon. <br>
+<br>
+Here is a picture of my final project for studio:
+<img width =400 alt="blink" src="assets/05ambientdisplay.jpeg">
 
 ---
 # Week 4: Report 4 - 09/26/2024 #
