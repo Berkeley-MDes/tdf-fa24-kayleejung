@@ -27,10 +27,12 @@ Because of the threshold values in the code for the FSR, certain resistors only 
 1k ohms (brown black red gold) - only magenta to green
 
 <h4>Example 3: Button Send on change</h4>
+This was a good example to learn how to see events on the particle website! 
 <img width =400 alt="blink" src="assets/05button.png">
 <img width =400 alt="blink" src="assets/05buttonsendonchangecircuit.jpeg">
 
 <h4>Example 4: Publish/Subscribe</h4>
+I had a bit of trouble doing this example, as I wasn't familiar with publishing and subscribing, and accessing the particle cloud. For a while, it was just showing 'pending' in the events, but I finally was able to see the photoLed changes. However, I am still having a bit of troubles with the subscribe function.
 <img width =400 alt="blink" src="assets/05publish.jpeg">
 <img width =400 alt="blink" src="assets/05publishsubscribecircuit.jpeg">
 
