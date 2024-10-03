@@ -15,15 +15,24 @@ This week was dedicated to creating projects in particle, building circuits and 
 After I built the initial circuit, I wanted to add a second LED, and code it to do something else when the button is pressed. I originally set up a global count variable and function in button_pressed that would increment the count. I then set up an if statement to turn on the LED2 if the count was even. However, I encountered issues with having both lights on. I did some troubleshooting, but decided to come back to this problem when I have a better understanding of little intricacies in the code and function order. This is the alteration I ended up doing: 
 <img width =400 alt="blink" src="assets/05blink.png">
 <img width =400 alt="blink" src="assets/05blinkcircuit.png">
+I set up the LEDs to just alternate in blinking, so if LED1 was high (on), then LED2 was low (off).
 
 <h4>Example 2: FSR to RGB LED</h4>
-Two resistor values: 
+The next example I completed was the FSR to RGB LED. I initially had this working and then I altered the circuit which unfortunately stopped it from working. After remaking it (a couple times), it finally started flashing again, and I think part of the problem was due to the resistors.  
+<img width =400 alt="blink" src="assets/05fsr.jpeg">
+Because of the threshold values in the code for the FSR, certain resistors only allowed for certain colours, due to the resistance values. This is what I documented:
 10k ohms (brown black orange) - easier to change colours, sensitive
 100k ohms (brown black black orange yellow) - only showed magenta/blue, very sensitive
 100 ohms (brown brown black black brown) - only magenta to blue to green
 1k ohms (brown black red gold) - only magenta to green
+
 <h4>Example 3: Button Send on change</h4>
+<img width =400 alt="blink" src="assets/05button.png">
+<img width =400 alt="blink" src="assets/05buttonsendonchangecircuit.jpeg">
+
 <h4>Example 4: Publish/Subscribe</h4>
+<img width =400 alt="blink" src="assets/05publish.jpeg">
+<img width =400 alt="blink" src="assets/05publishsubscribecircuit.jpeg">
 
 <h3>Speculations</h3>
 
