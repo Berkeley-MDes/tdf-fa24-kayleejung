@@ -13,14 +13,14 @@
 This week, we explored sensing options and formed groups for project 2! 
 <h3>Reflections</h3>
 In order to use the sensors, we first had to solder the Stemma board to connect it to the various sensors. I had soldered before in my undergrad, but it definitely took a few pins to get used to soldering again.
-<img width =400 alt="blink" src="assets/06solder.png">
+<img width =600 alt="blink" src="assets/06solder.png">
 
 After soldering, I loaded the two test stemma files for the accelerometer/gyroscope and the potentiometer to OLED. These outputs were just logged in the serial plot, but it's interesting to think about how I could apply these values to some other physical or digital outputs. In my capstone project, we used the same accelerometer/gyroscope for an interactive sensor glove to create digital art. In this project, we primarily used the roll axis of rotation to capture the twisting of the wrist, which then changed the brush size in the digital interface. For our current project, I'm interested in seeing if we could potentially use the linear and angular change in speed and acceleration to manipulate the visual background display. <br>
 
-<img width =400 alt="blink" src="assets/06interactionsstemma.png">
+<img width =600 alt="blink" src="assets/06interactionsstemma.png">
 
 <h3>Speculations</h3>
-<img width =400 alt="blink" src="assets/06TouchDesigner.png">
+<img width =600 alt="blink" src="assets/06TouchDesigner.png">
 (https://www.simonaa.media/tutorials/tag/touchdesigner)<br>
 TouchDesigner is a visual development platform that is commonly used for making interactive visual displays. I have personally never used it before, but I've always been fascinated with integrating the technology with physical sensing and manipulation. For example, I've seen it combined with a MIDI controller, and used as a way to create a linked visual display to a DJ set. I speculate that this could be a perfect tool to create our interactive background display visuals for our project, combined with various sensing inputs.  
 
