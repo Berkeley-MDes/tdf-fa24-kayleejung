@@ -30,6 +30,8 @@ Another tool we are interested in using is MAX/MSP, which is a visual programmin
 
 An overarching goal of mine is to create an interactive audiovisual instrument that responds to physical manipulation. My inspiration stems from synesthesia, which is a condition that causes people to experience one sense through another, such as seeing colors when they hear music. I imagine this to follow a similar form to the suzuki omnichord, but also interact with a gradient light display. I intend to make this either through a school or personal project, but I am excited to further develop my skills in sensor and cloud interaction through this digital ecosystem project. 
 
+<img width =600 alt="blink" src="assets/06synesthia.jpg">
+
 ---
 # Week 5: Report 5 - 10/03/2024 #
 <h3>Reflections</h3>
