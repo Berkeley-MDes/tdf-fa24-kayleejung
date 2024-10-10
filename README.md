@@ -19,12 +19,16 @@ After soldering, I loaded the two test stemma files for the accelerometer/gyrosc
 
 <img width =600 alt="blink" src="assets/06interactionsstemma.png">
 
+For this digital ecosystem project, I am working with Lauryn and Chantal, to create an interactive jellyfish with a corresponding audiovisual background display. We plan to test and use various sensors, and see how we can use this data to change our outputs. In the next week, we are going to implement distance sensors (ultrasonic, time of flight), force sensors, vibration motors, light-proximity-gesture sensor and potentially accelerometer/gyroscope. 
+
 <h3>Speculations</h3>
 <img width =600 alt="blink" src="assets/06TouchDesigner.png">
 (https://www.simonaa.media/tutorials/tag/touchdesigner)<br>
 TouchDesigner is a visual development platform that is commonly used for making interactive visual displays. I have personally never used it before, but I've always been fascinated with integrating the technology with physical sensing and manipulation. For example, I've seen it combined with a MIDI controller, and used as a way to create a linked visual display to a DJ set. I speculate that this could be a perfect tool to create our interactive background display visuals for our project, combined with various sensing inputs.  
 
-Another tool we are interested in using is MAX/MSP, which is a visual programming language for music and multimedia. This semester, I tried to take MUSIC 158A, sound and music computing, but was unable to get off the waitlist. However, I attended the first couple weeks of class and was super interested in the technology, and how I could further integrate it with physical inputs. An overarching goal 
+Another tool we are interested in using is MAX/MSP, which is a visual programming language for music and multimedia. This semester, I tried to take MUSIC 158A, sound and music computing, but was unable to get off the waitlist. However, I attended the first couple weeks of class and was super interested in the technology, and how I could further integrate it with physical inputs. 
+
+An overarching goal of mine is to create an interactive audiovisual instrument that responds to physical manipulation. My inspiration stems from synesthesia, which is a condition that causes people to experience one sense through another, such as seeing colors when they hear music. I imagine this to follow a similar form to the suzuki omnichord, but also interact with a gradient light display. I intend to make this either through a school or personal project, but I am excited to further develop my skills in sensor and cloud interaction through this digital ecosystem project. 
 
 ---
 # Week 5: Report 5 - 10/03/2024 #
