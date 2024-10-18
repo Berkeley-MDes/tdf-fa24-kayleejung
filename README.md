@@ -7,8 +7,22 @@
 [week 4](README.md#week-4-report-4) <br>
 [week 5](README.md#week-5-report-5) <br>
 [week 6](README.md#week-6-report-6) <br>
+[week 7](README.md#week-7-report-7) <br>
 
 ---
+# Week 7: Report 7 - 10/16/2024 #
+This week, I continued working on project 2, and mainly worked on testing sensors! Unfortunately, I got sick this week which slowed down my ability to work, but I still made some progress :)
+<h3>Reflections</h3>
+For our project, we considered using many different sensors, but wanted to try them each out to see if they fit our project/function needs. Our jellyfish display will have parts that are moved by a servo motor and a vibration motor, which are controlled by various sensors. 
+<h4>Vibration</h4>
+A feature we wanted to implement was the vibration of the jellyfish when a hand was close to the bell(head). This was a good experiment to test 1. the strength of the vibration disk & haptic driver, and 2. the reliability of the ultrasonic sensor data. To implement this, I created a circuit and corresponding code to make disk vibrate if there was an object within <3cm range of the ultrasonic sensor. I was surprised that the DRV2605 library for the haptic driver had over 120 different modes! I tested around 5 of the most promising modes, which included Strong Buzz 100%, Buzz 100%, Pulsing Strong 100%. It was hard to tell the difference but ultimately, I drew the conclusion that the vibration was not very powerful, and it might not be noticeable to use as a movement source for the jellyfish. However, I was happy to see the ultrasonic sensor was working well! 
+<img width =600 alt="blink" src="assets/07vibration.png">
+<h4>Light, Proximity & Gesture Sensor </h4>
+I was excited to try this sensor as I've never worked with it before! We were interested with using this sensor to control the background visuals (for the jellyfish digital habitat). I ran into some issues with accessing the gesture data – not sure if the issue is related to the library, but I will continue to troubleshoot. However, Lauryn was able to access the data on her computer, so I'm sure it is a resolvable issue. I am interested in using the proximity and/or gesture data to control visuals in touchdesigner. I wrote the code to publish the data, and am working on the method of accessing the data through webhooks, and a local host (and using ngrok since you can't add localhost directly in the custom webhook integration). I set up the webhook, and will continue to work on how I can access and manipulate this data in touchdesigner. 
+<h3>Speculations</h3>
+
+---
+
 # Week 6: Report 6 - 10/10/2024 #
 This week, we explored sensing options and formed groups for project 2! 
 <h3>Reflections</h3>
