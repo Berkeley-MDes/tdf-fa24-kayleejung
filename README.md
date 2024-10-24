@@ -8,9 +8,29 @@
 [week 5](README.md#week-5-report-5) <br>
 [week 6](README.md#week-6-report-6) <br>
 [week 7](README.md#week-7-report-7) <br>
+[week 8](README.md#week-8-report-8) <br>
 
 ---
-# Week 7: Report 7 - 10/16/2024 #
+# Week 8: Report 8 - 10/24/2024 #
+This week, my team and I wrapped up our jellyfish project! Integration of all parts went smoothly and I'm very happy with the final product :-)
+<h3>Reflections</h3>
+<h4>Gesture Sensor</h4>
+Last week, I was having issues with the proximity, light and gesture sensor reading and detecting gestures. The code I originally used did not work, but this past Monday it was able to flash and detect gestures! I'm not sure if it was a particle photon glitch, library error or maybe user error (me doing the gestures). However after I got it to flash it worked very consistently. 
+<h4>Webhooks --> Websockets? --> Particle Cloud API </h4>
+In our project proposal, we considered using either p5.js or TouchDesigner to create the visual display for the jellyfish environment. To do so, I experimented publishing the gesture data as a cloud variable, and also as a cloud event. A big question last week was how exactly I was going to forward the data from the particle cloud, to be developed into visuals. I tried creating a custom webhook, but realized that is likely not easily compatible with the TouchDesigner functions/interface. I also considered using the Google Cloud to forward the data using WebSockets, but decided to use the native tools to Particle: the Particle Cloud API. 
+
+<br>
+
+<img width =600 alt="blink" src="assets/08touchdesigner.png">
+In TouchDesigner, there is a function block that allows API data to be accessed, called a WebClient block. However, as the event data is constantly being published, the WebClient needs to be constantly triggered. I was having issues with this, and was not able to have a consistent data input stream despite many hours of troubleshooting. I talked to a Cohort 4 team that used TouchDesigner last year, and they only managed to access the particle data using a serial port. I considered using another photon to subscribe to the gesture data, but this in hindsight would've been more complicated, as we already used 1 photon for the electronics and 1 photon for the gesture sensor publishing. If we did this method, our digital ecosystem would be 3 photons. Ultimately, I chose to use p5.js to manipulate the gesture data into visuals as it was the most responsive and reliable, and was able to access the JSON data consistently. For the final prototype, I embedded the sketch into a React Webapp. 
+<img width =600 alt="blink" src="assets/08publish.png">
+<img width =600 alt="blink" src="assets/08p5.png">
+<img width =600 alt="blink" src="assets/08testingp5gesture.png">
+
+<h3>Speculations</h3>
+
+---
+# Week 7: Report 7 - 10/17/2024 #
 This week, I continued working on project 2, and mainly worked on testing sensors! Unfortunately, I got sick this week which slowed down my ability to work, but I still made some progress :)
 <h3>Reflections</h3>
 For our project, we considered using many different sensors, but wanted to try them each out to see if they fit our project/function needs. Our jellyfish display will have parts that are moved by a servo motor and a vibration motor, which are controlled by various sensors. 
