@@ -25,9 +25,12 @@ In our project proposal, we considered using either p5.js or TouchDesigner to cr
 In TouchDesigner, there is a function block that allows API data to be accessed, called a WebClient block. However, as the event data is constantly being published, the WebClient needs to be constantly triggered. I was having issues with this, and was not able to have a consistent data input stream despite many hours of troubleshooting. I talked to a Cohort 4 team that used TouchDesigner last year, and they only managed to access the particle data using a serial port. I considered using another photon to subscribe to the gesture data, but this in hindsight would've been more complicated, as we already used 1 photon for the electronics and 1 photon for the gesture sensor publishing. If we did this method, our digital ecosystem would be 3 photons. Ultimately, I chose to use p5.js to manipulate the gesture data into visuals as it was the most responsive and reliable, and was able to access the JSON data consistently. For the final prototype, I embedded the sketch into a React Webapp. 
 <img width =600 alt="blink" src="assets/08publish.png">
 <img width =600 alt="blink" src="assets/08p5.png">
-<img width =600 alt="blink" src="assets/08testingp5gesture.png">
 
 <h3>Speculations</h3>
+I enjoyed exploring the world of APIs and cloud data, and I was impressed at how accessible the data is through the Particle Cloud API. In past projects that involved any data, I never worked on the integration of physical to digital, so this was a good learning experience. While it was challenging to test out the methods and troubleshoot, I am excited to continue to work on physical to digital interaction with the photon! While we decided to pivot to p5.js, I would like to explore the TouchDesigner interface. I speculate that the cloud API might not be the best method for this, and in the future will possibly explore using a backend server, webapp and Websockets. Maybe will work on a physical to TouchDesigner to LED light display for our jellyfish, or other underwater friends.
+<br>
+
+<img width =600 alt="blink" src="assets/08teamjellyfish.png">
 
 ---
 # Week 7: Report 7 - 10/17/2024 #
