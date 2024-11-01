@@ -28,10 +28,15 @@ For example, in my thesis, I worked with 3 other teammates. For some reason, it 
 A high number of chunks, but low similarity threshold, this did not return an answer. <br>
 
 <h4>Experiment 4: GPT, INSTRUCT, RAG & VARIABLES</h4>
-The introduction of variables I found to be particularly useful and interesting. 
+The introduction of variables I found to be particularly useful and interesting. I included two variables: Function and Sensor, since my project used multiple different sensors, each correlating to a different function. In my thesis, these functions are referenced throughout, and the combination of multiple active/inactive sensors decide the features. I set my agent flow to respond concisely to my question, in the format of: Explain ${FUNCTION} using ${SENSOR}. Overall, this worked very well in breaking down concepts, and returned accurate results. In the example below, I asked the chatbot (very vaguely) to explain how the device knows when to draw and when not to draw, in the context of an active moving hand. It translated the user input from "How does it detect drawing and not drawing?" to a more context aware question. The final output was very accurate. <br>
+
+<img width =600 src="assets/09experiment4_drawing.png">
+<img width =600 src="assets/09questionoutput.png">
 
 <h3>Speculations</h3>
-I'm interested in the 'Web' section in the ZeroWidth toolbar, and how we can utilize and incorporate API Data. I am curious about the integration and future applications that can come out of it – eg. parsing data from API, and adding it to a knowledge base. It seems like ZeroWidth has the capabilities to make easy integration of these different components, and I am excited to see how I can further utilize this data and export it to something else. For example, in our last project, we had a lot of data in the JSON output. For more complex things, maybe we would want to use the time stamp or more parameters, and further manipulate the data. ZeroWidth also has tools for math and digital logic. I appreciate the visual nature of this software, and am excited to learn more on how to utilize its functions.
+I'm interested in the 'Web' section in the ZeroWidth toolbar, and how we can utilize and incorporate API Data. I am curious about the integration and future applications that can come out of it – eg. parsing data from API, and adding it to a knowledge base. It seems like ZeroWidth has the capabilities to make easy integration of these different components, and I am excited to see how I can further utilize this data and export it to something else. For example, in our last project, we had a lot of data in the JSON output. For more complex things, maybe we would want to use the time stamp or more parameters, and further manipulate the data. ZeroWidth also has tools for math and digital logic. I appreciate the visual nature of this software, and am excited to learn more on how to utilize its functions. I potentially want to experiment using the spotify API, and use the GPT to either analyze my data or suggest recommendations. <br>
+
+<img width =600 src="assets/09spotifyAPI.png">
 
 ---
 # Week 8: Report 8 - 10/24/2024 #
