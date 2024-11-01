@@ -13,8 +13,13 @@
 
 ---
 # Week 9: Report 9 - 10/24/2024 #
+Last Thursday, we wrapped up project 2 and now we are moving onto LLMs! 
+<h3>Reflections</h3>
+After running the initial experiments and getting used to the interface, I moved on to the GPT & RAG. Instead of uploading my resume, I was curious on how well the system could parse through technical information, and explain the functionalities. Thus, I uploaded my senior undergrad thesis project to the knowledge base (all 46 pages), and tested the agent flow with a variety of questions relating to features, purpose, team members, etc. For the most part, it was very accurate with parsing data. When I added the number slider to the temperature, a higher value corresponded to a likely incorrect response. For example, in my thesis, I worked with 3 other teammates. For some reason, it was very accurate with listing Beatrice and Josie, but in many cases it excluded Mika. I told the chatbot they forgot a member, and it returned the name Clarisse. When I increased the temperature, it gave me very bizarre answers: full names of three men. While I can understand why the names randomized with the temperature increase, I am not sure why Mika was excluded, as her name is present on the first page, along with the three of us.
 
 
+
+<h3>Speculations</h3>
 ---
 # Week 8: Report 8 - 10/24/2024 #
 This week, my team and I wrapped up our jellyfish project! Integration of all parts went smoothly and I'm very happy with the final product :-)
