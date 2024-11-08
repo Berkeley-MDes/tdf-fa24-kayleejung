@@ -12,7 +12,25 @@
 [week 9](README.md#week-9-report-9) <br>
 
 ---
-# Week 9: Report 9 - 10/24/2024 #
+# Week 10: Report 10 - 11/07/2024 #
+Today, we shared our LLM models for project 3! This project was a quick turnaround but it was a good break from the physical prototyping we've been doing – and cool to learn about new technologies!
+
+<h3>Reflections</h3>
+Building upon what I worked on last week, I ended up changing the knowledge base to my github weekly reports so the LLM could act as a mini-me, answering questions about TDF and my work. For my 5th experiment, I had the LLM analyze my senior thesis (like how I set it up last week), except I honed in on having it explain the functions, and what sensors/technology was used to make that happen. This was honestly a super useful tool, and one I could've utilized in the 4 hours I had to present it. Finally, this week I worked on a Daylist Visualizer. Daylists are spotify ai-generated playlists that are created based on a user's listening habits throughout the day. It creates a unique playlist 5 times a day, between sunrise and sunset. I originally was curious about using Spotify API, but I instead wanted to focus my efforts and time to dialling in on the outputs. I played around with the prompt instructions, altering how the image is generated (what style), and what tone to speak in. Ultimately, from the user inputted 'Daylist Title', the instructions asks GPT to: interpret the daylist, suggest an activity, recommend a song, write a personal note & create an illustration for cover art.
+
+<br><br>
+This is what the final demo interface looks like (minus the text on the bottom left)!
+<img width =600 src="assets/10daylistdemo.jpg">
+
+<br>This is what the flow looks like:<br>
+<img width =600 src="assets/10daylistflow.png">
+
+<h3>Speculations</h3>
+I had a lot of fun playing around with the prompt instructions, and asking GPT to generate images fitting a certain style: doodle-like, painterly, bold, etc. I quite liked many of the results! I was able to achieve nice looking illustrationg solely based on the prompt, but I would like to further explore how I can use image urls for context. For example, if I had a set of New Yorker illustrations I liked, I would want the GPT to emulate the style and apply it to my album art, which is something that AI image generators like Midjourney do well. Here is an example of 4 different images from the same prompt! I also would like to delve into the Spotify API, and maybe use ZeroWidth to create a tool that analyzes your playlist and creates a album art for it, which is pushed to the code. ZeroWidth is a pretty cool tool, especially for people like me who have never worked with LLMs (besides asking ChatGPT questions), and I'm excited to keep on learning!
+<img width =600 src="assets/10imagegen.jpg">
+
+---
+# Week 9: Report 9 - 10/31/2024 #
 Last Thursday, we wrapped up project 2 and now we are moving onto LLMs! 
 <h3>Reflections</h3>
 <h4>Experiment 3: GPT, INSTRUCT & RAG</h4>
