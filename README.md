@@ -10,6 +10,28 @@
 [week 7](README.md#week-7-report-7) <br>
 [week 8](README.md#week-8-report-8) <br>
 [week 9](README.md#week-9-report-9) <br>
+[week 10](README.md#week-10-report-10) <br>
+[week 11](README.md#week-11-report-11) <br>
+
+---
+# Week 11: Report 11 - 11/14/2024 #
+This week, we had a bit of a break because of Veteran's Day (also called Remembrance Day in Canada), and thus we only had TDF once. Last week, we wrapped up project 3, and also ordered parts for project 4. 
+
+<h3>Reflections</h3>
+For project 4, I will be working with the same group members as project 3. Chantal and Lauryn. We are thinking of potentially further exploring the 'digital ecosystem' project by making an interactive educational toy. The form, functionality and purpose is still being explored, but we are looking forward to expanding our skills with physical interaction, sensors and cloud interaction. We brainstormed a couple ideas, including toy blocks, that can be placed in tandem to create a story. For example, there would be a series of blocks that relate to the story's setting, characters, etc. Thus, when placed together, the system reads which block is placed, and utilizes a LLM to compose a story. Another avenue we explored was making an educational toy for math, utilizing different sensors and physical actuators to manipulate numbers. We also considered making something relating to music, and the idea of making an alternative/educational instrument. We still have lots of planning and ironing out of details to do, but I'm excited to move forward! 
+
+<br>
+<br>
+<img width =600 src="assets/11yotoplay.png">
+
+This is an image I found on kickstarter, which is an audio player for kids that utilizes cards to tell a story. I thought the idea was simple but unique, and the form reminds me of the design of Teenage Engineering! I think it would be cool to further explore how music and education can be intertwined, and if that is a feasible product for this project. 
+
+<h3>Speculations</h3>
+I speculate that AI and digital ecosystems will continue to be more intertwined. In researching potential ideas, and sourcing our what exists in the market for educational tools, I stumbled upon the Nex Playground. I have never heard of it before, but the technology used is quite interesting. It is a unique AI-powered motion tracking video console. I imagine the technology/sensors used is similar to the Nintendo Switch, but I found it particularly interesting as there are no controllers/remotes used (I presume). Thus, it must also utilize some sort of ML aspect to track movements. I am interested in adding more interactions to our physical system, such as cloud interactions or ML integration. Our team still has a lot of exploration and then narrowing of ideas to be done, but I think the pin up critique next week will prove to be valauble in shaping our direction. 
+
+<br>
+<br>
+<img width =600 src="assets/11nexplayground.jpg">
 
 ---
 # Week 10: Report 10 - 11/07/2024 #
