@@ -17,9 +17,16 @@
 ---
 
 # Week 12: Report 11 - 11/21/2024 #
+project 4 begins :-)
 <h3>Reflections</h3>
+This, week we had a pinup session where we proposed our ideas, which was fun and interesting to see everyone's ideas! I proposed Music Math Blocks – tactile, magnetically-connected blocks designed to teach arithmetic and rhythm through music and rudimentary music theory. I am hoping that all of our essential parts will arrive so we can begin testing. Our team is thinking of utilizing an RFID block detection system, where each number block has a rfid or nfc chip. Once it is placed on the baseplate, the sensor detects which block is placed, and computes the equation. We are envisioning that audio will be used as feedback in the form of musical scales. For example, if it is 3 + 4 = 7, it would potentially say 'three' --> play 3 notes of the scale --> say 'plus' --> say'4' --> play the next 4 notes of the scale. If we include a third block as the 'answer', then the system will check it then output lights and play the sequence of 7 notes. If we do not include a third block, then we will use an OLED to display a number, then the user will place two blocks that add up to it. There's still a lot for our team to figure out but I think we made a lot of progress in ideating this week, and I'm excited to keep working on it :) <br><br>
 
+<img width =600 src="assets/12pinup.png">
 <h3>Speculations</h3>
+Our final system will essentially be an integrated RFID sensing physical interface that connects to a digital p5.js audiovisual interface. While the purpose of our project is to teach math in a musical way, there are so many other applications that can be done with our system! Think of pattern matching, storytelling, physical tactile bumps to sounds, etc, there are lots of possible areas of exploration even beyond our project. This is an example of a jukebox rfid toy that I found online, where the cards have images, and the jukebox will play a story based on that object. I am interested in seeing how AI could be used to make stories out of different things like characters and settings, eg. bear and forest, and how it could come up with a short storyline for kids. <br><br>
+
+
+<img width =600 src="assets/12rfidjukebox.png">
 
 ---
 # Week 11: Report 11 - 11/14/2024 #
