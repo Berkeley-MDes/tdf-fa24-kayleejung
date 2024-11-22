@@ -1,4 +1,4 @@
-# Hi, I'm Kaylee – this is my worklog!
+# Kaylee's TDF Worklog ✨🪼!
 
 # Outline
 [week 1](README.md#week-1-report-1) <br>
@@ -12,13 +12,21 @@
 [week 9](README.md#week-9-report-9) <br>
 [week 10](README.md#week-10-report-10) <br>
 [week 11](README.md#week-11-report-11) <br>
+[week 12](README.md#week-12-report-12) <br>
+
+---
+
+# Week 12: Report 11 - 11/21/2024 #
+<h3>Reflections</h3>
+
+<h3>Speculations</h3>
 
 ---
 # Week 11: Report 11 - 11/14/2024 #
 This week, we had a bit of a break because of Veteran's Day (also called Remembrance Day in Canada), and thus we only had TDF once. Last week, we wrapped up project 3, and also ordered parts for project 4. 
 
 <h3>Reflections</h3>
-For project 4, I will be working with the same group members as project 3. Chantal and Lauryn. We are thinking of potentially further exploring the 'digital ecosystem' project by making an interactive educational toy. The form, functionality and purpose is still being explored, but we are looking forward to expanding our skills with physical interaction, sensors and cloud interaction. We brainstormed a couple ideas, including toy blocks, that can be placed in tandem to create a story. For example, there would be a series of blocks that relate to the story's setting, characters, etc. Thus, when placed together, the system reads which block is placed, and utilizes a LLM to compose a story. Another avenue we explored was making an educational toy for math, utilizing different sensors and physical actuators to manipulate numbers. We also considered making something relating to music, and the idea of making an alternative/educational instrument. We still have lots of planning and ironing out of details to do, but I'm excited to move forward! 
+For project 4, I will be working with the same group members as project 3, Chantal and Lauryn. We are thinking of potentially further exploring the 'digital ecosystem' project by making an interactive educational toy. The form, functionality and purpose is still being explored, but we are looking forward to expanding our skills with physical interaction, sensors and cloud interaction. We brainstormed a couple ideas, including toy blocks, that can be placed in tandem to create a story. For example, there would be a series of blocks that relate to the story's setting, characters, etc. Thus, when placed together, the system reads which block is placed, and utilizes a LLM to compose a story. Another avenue we explored was making an educational toy for math, utilizing different sensors and physical actuators to manipulate numbers. We also considered making something relating to music, and the idea of making an alternative/educational instrument. We still have lots of planning and ironing out of details to do, but I'm excited to move forward! 
 
 <br>
 <br>
