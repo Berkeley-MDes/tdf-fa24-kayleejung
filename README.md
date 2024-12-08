@@ -13,18 +13,40 @@
 [week 10](README.md#week-10-report-10) <br>
 [week 11](README.md#week-11-report-11) <br>
 [week 12](README.md#week-12-report-12) <br>
-
+[week 14](README.md#week-14-report-14) <br>
 
 ---
 
 # Week 14: Report 14 - 12/05/2024 #
+<h3>Reflections</h3>
+This week, our group started planning for next steps for integration, as we had been working individually over break. I worked on some p5.js testing (tone.js, different visual ways to show the counting data, experiments with audiovisuals, etc.). I also set up the rfid sensor modules, which I ran into some issues mostly in having two sensor modules wired. These modules require MOSI, MISO and SCK pins, and I originally had them wired to individual connections, but realized that is not possible. However, as these are SPI devices, I learned that I could have them both connected to the same MOSI, MISO and SCK pins, and they would have their own connections to RST and SDA pins. This worked well, and while the readers couldn't simultaneously detect the rfid tags, the detection range was very good and accurate. This next week, I will transition from doing sensor testing to working on the p5.js which I think is a bigger task than I originally anticipated. While our team expected to complete this project at a platypus level, I think the complexity of this project will require us to work harder and thus axolotl level. <br>
+
+
+<br>
+Here are the working connections for the rfid sensors.
+<img width =600 src="assets/14spi.png">
+<br> 
+Here are the rfid sensors both working!
+<img width =600 src="assets/14rfid.png">
+
+<h3>Speculations</h3>
+As I transition into working on my p5.js, there is a lot of work to be done in ideating the visuals then developing them. I did some testing with some more abstract visual cues, but I think it will be more useful as an educational tool, to have the equation written out, so there is correlation between building math equations with tactile number blocks. Chantal is gonna work with me this next week to develop graphics that we can use for the p5.js as well as instructions for our blocks. I also did some testing using tone.js, and completed several experiments. I first started with just getting basic sound generation, so using keyboard inputs and mapping them to notes of a scale. I then experimented with using songs as outputs. Below I linked some p5 sketches of some experiments I did!
+
+<img width =300 src="assets/14p5.png">
+
+https://editor.p5js.org/kayleejung/sketches/54lY77y5k
+https://editor.p5js.org/kayleejung/sketches/ltumuUkb4
+---
+
+# Week 13: Report 13 - 11/28/2024 #
+Thanksgiving break! 🦃
 
 ---
 
 # Week 12: Report 12 - 11/21/2024 #
 project 4 begins :-)
 <h3>Reflections</h3>
-This, week we had a pinup session where we proposed our ideas, which was fun and interesting to see everyone's ideas! I proposed Music Math Blocks – tactile, magnetically-connected blocks designed to teach arithmetic and rhythm through music and rudimentary music theory. I am hoping that all of our essential parts will arrive so we can begin testing. Our team is thinking of utilizing an RFID block detection system, where each number block has a rfid or nfc chip. Once it is placed on the baseplate, the sensor detects which block is placed, and computes the equation. We are envisioning that audio will be used as feedback in the form of musical scales. For example, if it is 3 + 4 = 7, it would potentially say 'three' --> play 3 notes of the scale --> say 'plus' --> say'4' --> play the next 4 notes of the scale. If we include a third block as the 'answer', then the system will check it then output lights and play the sequence of 7 notes. If we do not include a third block, then we will use an OLED to display a number, then the user will place two blocks that add up to it. There's still a lot for our team to figure out but I think we made a lot of progress in ideating this week, and I'm excited to keep working on it :) <br><br>
+This week, we had a pinup session where we proposed our ideas, which was fun and interesting to see everyone's ideas! I proposed Music Math Blocks – tactile, magnetically-connected blocks designed to teach arithmetic and rhythm through music and rudimentary music theory. I am hoping that all of our essential parts will arrive so we can begin testing. Our team is thinking of utilizing an RFID block detection system, where each number block has a rfid or nfc chip. Once it is placed on the baseplate, the sensor detects which block is placed, and computes the equation. We are envisioning that audio will be used as feedback in the form of musical scales. For example, if it is 3 + 4 = 7, it would potentially say 'three' --> play 3 notes of the scale --> say 'plus' --> say'4' --> play the next 4 notes of the scale. If we include a third block as the 'answer', then the system will check it then output lights and play the sequence of 7 notes. If we do not include a third block, then we will use an OLED to display a number, then the user will place two blocks that add up to it. There's still a lot for our team to figure out but I think we made a lot of progress in ideating this week, and I'm excited to keep working on it :) <br><br>
 
 <img width =600 src="assets/12pinup.png">
 <h3>Speculations</h3>
